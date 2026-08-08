@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Calico Companion",
+    "version": "1.0.0",
+    "description": "Cursor following cat friend",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "resources": [
+                "images/sit.png",
+                "images/walk(1).png",
+                "images/walk(2).png"
+            ]
+        }
+    ]
+}
