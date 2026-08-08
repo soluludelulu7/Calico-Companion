@@ -1,1 +1,1 @@
-# Calico-Companion
+# Calico Companion
